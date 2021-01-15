@@ -1,0 +1,7 @@
+flow_table_v4 { type = 5, key_size = 16, value_size = 16, max_entries = 32768, fd = 0 }
+flow_table_v6 { type = 5, key_size = 40, value_size = 16, max_entries = 32768, fd = 1 }
+cpu_map { type = 16, key_size = 4, value_size = 4, max_entries = 64, fd = 2 }
+cpus_available { type = 2, key_size = 4, value_size = 4, max_entries = 64, fd = 3 }
+cpus_count { type = 2, key_size = 4, value_size = 4, max_entries = 1, fd = 4 }
+tx_peer { type = 14, key_size = 4, value_size = 4, max_entries = 1, fd = 5 }
+tx_peer_int { type = 2, key_size = 4, value_size = 4, max_entries = 1, fd = 6 }

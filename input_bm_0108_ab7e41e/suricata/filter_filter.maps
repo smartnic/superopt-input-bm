@@ -1,0 +1,1 @@
+ipv4_drop { type = 5, key_size = 4, value_size = 4, max_entries = 32768, fd = 0 }
