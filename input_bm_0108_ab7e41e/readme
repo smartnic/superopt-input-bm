@@ -1,4 +1,5 @@
-*.insns and *.maps are from https://github.com/smartnic/bpf-benchmarks/commit/ab7e41e15f5b4fa2f01c58f73ebada541b3979ad
+*.insns and *.maps are from https://github.com/smartnic/bpf-benchmarks/tree/ab7e41e15f5b4fa2f01c58f73ebada541b3979ad
+cilium from folder: cilium/ubuntu-20.04-clang9-O2
 ebpf_samples from folder: ebpf-samples/ubuntu-20.04-clang9-O2
 katran from folder: katran/ubuntu-20.04-clang9-O2
 simple_fw from folder: simple_fw/O2
