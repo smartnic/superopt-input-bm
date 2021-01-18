@@ -1,2 +1,2 @@
-flow_table_v4 { type = 5, key_size = 16, value_size = 16, max_entries = 32768, fd = 0 }
-flow_table_v6 { type = 5, key_size = 40, value_size = 16, max_entries = 32768, fd = 1 }
+flow_table_v4 { type = 5, key_size = 16, value_size = 16, max_entries = 32768, fd = 0
+flow_table_v6 { type = 5, key_size = 40, value_size = 16, max_entries = 32768, fd = 1

@@ -1,9 +1,0 @@
-ctl_array { type = 2, key_size = 4, value_size = 8, max_entries = 16, fd = 0 }
-vip_map { type = 1, key_size = 20, value_size = 8, max_entries = 512, fd = 1 }
-lru_mapping { type = 12, key_size = 4, value_size = 4, max_entries = 128, fd = 2 }
-fallback_cache { type = 9, key_size = 40, value_size = 16, max_entries = 1000, fd = 3 }
-ch_rings { type = 2, key_size = 4, value_size = 4, max_entries = 33554944, fd = 4 }
-reals { type = 2, key_size = 4, value_size = 20, max_entries = 4096, fd = 5 }
-reals_stats { type = 6, key_size = 4, value_size = 16, max_entries = 4096, fd = 6 }
-stats { type = 6, key_size = 4, value_size = 16, max_entries = 1024, fd = 7 }
-quic_mapping { type = 2, key_size = 4, value_size = 4, max_entries = 16777214, fd = 8 }

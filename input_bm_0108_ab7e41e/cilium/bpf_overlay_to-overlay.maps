@@ -1,0 +1,16 @@
+test_cilium_calls_65535 { type = 3, key_size = 4, value_size = 4, max_entries = 25, fd = 0
+test_cilium_encrypt_state { type = 2, key_size = 4, value_size = 1, max_entries = 1, fd = 1
+test_cilium_events { type = 4, key_size = 4, value_size = 4, max_entries = 64, fd = 2
+test_cilium_ipcache { type = 1, key_size = 24, value_size = 12, max_entries = 512000, fd = 3
+test_cilium_lb4_backends { type = 1, key_size = 2, value_size = 8, max_entries = 65536, fd = 4
+test_cilium_lb4_reverse_nat { type = 1, key_size = 2, value_size = 6, max_entries = 65536, fd = 5
+test_cilium_lb4_services { type = 1, key_size = 12, value_size = 12, max_entries = 65536, fd = 6
+test_cilium_lb6_backends { type = 1, key_size = 2, value_size = 20, max_entries = 65536, fd = 7
+test_cilium_lb6_reverse_nat { type = 1, key_size = 2, value_size = 18, max_entries = 65536, fd = 8
+test_cilium_lb6_services { type = 1, key_size = 24, value_size = 12, max_entries = 65536, fd = 9
+test_cilium_lxc { type = 1, key_size = 20, value_size = 48, max_entries = 65536, fd = 10
+test_cilium_metrics { type = 5, key_size = 8, value_size = 16, max_entries = 65536, fd = 11
+test_cilium_policy { type = 3, key_size = 4, value_size = 4, max_entries = 65536, fd = 12
+test_cilium_signals { type = 4, key_size = 4, value_size = 4, max_entries = 64, fd = 13
+test_cilium_tunnel_map { type = 1, key_size = 20, value_size = 20, max_entries = 65536, fd = 14
+bpf_over.data { type = 2, key_size = 4, value_size = 40, max_entries = 1, fd = 15
