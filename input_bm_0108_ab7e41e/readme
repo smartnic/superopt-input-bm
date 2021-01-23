@@ -2,5 +2,5 @@
 cilium from folder: cilium/ubuntu-20.04-clang9-O2
 ebpf_samples from folder: ebpf-samples/ubuntu-20.04-clang9-O2
 katran from folder: katran/ubuntu-20.04-clang9-O2
-simple_fw from folder: simple_fw/O2
+simple_fw from folder: simple_fw/ubuntu-20.04-clang9-O2
 suricata from folder: suricata/ubuntu-20.04-clang9-O2
