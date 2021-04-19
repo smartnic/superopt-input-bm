@@ -1,0 +1,2 @@
+{ pgm_input_type = 3, }
+{ max_pkt_sz = 88, }
