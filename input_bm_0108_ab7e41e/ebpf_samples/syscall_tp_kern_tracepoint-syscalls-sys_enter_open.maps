@@ -1,0 +1,2 @@
+enter_open_map { type = 2, key_size = 4, value_size = 4, max_entries = 1, fd = 0 }
+exit_open_map { type = 2, key_size = 4, value_size = 4, max_entries = 1, fd = 1 }

@@ -1,0 +1,5 @@
+exception_cnt { type = 6, key_size = 4, value_size = 8, max_entries = 6, fd = 0 }
+cpumap_enqueue_cnt { type = 6, key_size = 4, value_size = 32, max_entries = 64, fd = 1 }
+cpumap_kthread_cnt { type = 6, key_size = 4, value_size = 32, max_entries = 1, fd = 2 }
+devmap_xmit_cnt { type = 6, key_size = 4, value_size = 32, max_entries = 1, fd = 3 }
+redirect_err_cnt { type = 6, key_size = 4, value_size = 8, max_entries = 2, fd = 4 }

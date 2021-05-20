@@ -1,3 +1,3 @@
-jmp_table { type = 3, key_size = 4, value_size = 4, max_entries = 8, fd = 0
-percpu_map { type = 2, key_size = 4, value_size = 16, max_entries = 32, fd = 1
-hash_map { type = 1, key_size = 16, value_size = 16, max_entries = 1024, fd = 2
+jmp_table { type = 3, key_size = 4, value_size = 4, max_entries = 8, fd = 0 }
+percpu_map { type = 2, key_size = 4, value_size = 16, max_entries = 32, fd = 1 }
+hash_map { type = 1, key_size = 16, value_size = 16, max_entries = 1024, fd = 2 }
